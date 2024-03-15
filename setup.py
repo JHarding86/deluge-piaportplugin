@@ -9,9 +9,9 @@
 from setuptools import find_packages, setup
 
 __plugin_name__ = 'PIAPortPlugin'
-__author__ = 'Jeff Wilson'
-__author_email__ = 'jeff@jeffalwilson.com'
-__version__ = '0.2'
+__author__ = 'Nick Neos'
+__author_email__ = 'nicholas.neos@gmail.com'
+__version__ = '0.3'
 __url__ = ''
 __license__ = 'GPLv3'
 __description__ = ''
