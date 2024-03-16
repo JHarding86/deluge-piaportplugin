@@ -58,7 +58,7 @@ class Core(CorePluginBase):
                     return
 
                 if core.get_listen_port() == port:
-                    log.warning("Listen port already set to: %d" % port)
+                    log.warning("Current port file lists blocked port: %d" % port)
                     return
 
                 core.set_config({"listen_ports": [port, port]})
